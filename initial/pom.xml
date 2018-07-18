@@ -37,12 +37,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://192.168.56.101:8081/repository/Release/</url>
+            <url>http://172.17.0.6:8081/repository/Release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Release</name>
-            <url>http://192.168.56.101:8081/repository/Snapshot/</url>
+            <url>http://172.17.0.6:8081/repository/Snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
