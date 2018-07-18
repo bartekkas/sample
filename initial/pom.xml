@@ -33,5 +33,17 @@
             </plugin>
         </plugins>
     </build>
-
+    <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://192.168.56.101:8081/repository/Release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Release</name>
+            <url>http://192.168.56.101:8081/repository/Snapshot/</url>
+         </repository>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
